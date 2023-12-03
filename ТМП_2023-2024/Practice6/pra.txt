@@ -1,0 +1,25 @@
+ Dưới đây là một giải thích về chương trình tính toán biểu thức số học trong đề bài:
+
+1. Chương trình yêu cầu người dùng nhập một biểu thức số học trong định dạng infix (ví dụ: (2 + 3) * 4).
+
+2. Biểu thức infix được chuyển đổi thành biểu thức postfix (được gọi là Reverse Polish Notation) bằng cách sử dụng thuật toán Shunting Yard.
+
+3. Sau khi chuyển đổi thành công, chương trình sẽ in ra biểu thức postfix tương ứng (ví dụ: 2 3 + 4 *).
+
+4. Biểu thức postfix được tính toán bằng cách sử dụng một stack (ngăn xếp) để lưu trữ các toán hạng và thực hiện các phép toán.
+
+5. Kết quả tính toán cuối cùng sẽ được in ra màn hình.
+
+Ví dụ: Nếu bạn nhập biểu thức số học `(2 + 3) * 4`, chương trình sẽ thực hiện các bước sau:
+
+- Bước 1: Chuyển đổi biểu thức infix thành biểu thức postfix:
+  - Biểu thức infix: (2 + 3) * 4
+  - Biểu thức postfix: 2 3 + 4 *
+
+- Bước 2: Tính toán biểu thức postfix:
+  - Biểu thức postfix: 2 3 + 4 *
+  - Kết quả: (2 + 3) * 4 = 20
+
+Vì vậy, kết quả của biểu thức `(2 + 3) * 4` là 20.
+
+Lưu ý rằng chương trình đã được cập nhật để sửa các lỗi và không còn gặp vấn đề với việc tính toán hoặc in kết quả.
